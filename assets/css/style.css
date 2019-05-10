@@ -1,0 +1,27 @@
+body{
+    background: url("../images/gplaypattern.png")
+}
+
+.ks-btn-img  {
+    width: 100px;
+    height: 100px;
+    object-fit: contain
+}
+.ks-container {
+  /*  background-color: grey  */
+    position: relative;
+
+}
+.ks-container::after {
+    content:"";
+  
+      background: url("../images/triangular.png");  
+      opacity:.4;
+      top:0;
+      left:0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1
+
+}
