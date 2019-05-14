@@ -1,16 +1,35 @@
 body{
-    background: url("../images/gplaypattern.png")
-}
+    background: url("../images/gplaypattern.png");
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    color: rgb(53, 53, 53)
 
+}
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
 .ks-btn-img  {
     width: 100px;
     height: 100px;
-    object-fit: contain
+    object-fit: contain;
+}
+.ks-btn {
+  margin: 0px 0px 5px 0px;
+}
+button:hover  {
+ /*  outline: solid 1px rgb(53, 53, 53); */
+  transform: scale(1.1);
+  transition: all ease 400ms;
 }
 .ks-container {
   /*  background-color: grey  */
     position: relative;
-
+    outline: solid 1px rgb(201, 201, 201);
 }
 .ks-container::after {
     content:"";
@@ -22,6 +41,7 @@ body{
       bottom: 0;
       right: 0;
       position: absolute;
-      z-index: -1
+      z-index: -1;
+      box-shadow: 4px 4px 20px 0px rgb(61, 61, 61);
 
 }
