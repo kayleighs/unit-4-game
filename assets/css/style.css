@@ -26,6 +26,9 @@ button:hover  {
   transform: scale(1.1);
   transition: all ease 400ms;
 }
+button:focus, button:active {
+  outline: none !important;
+}
 .ks-container {
   /*  background-color: grey  */
     position: relative;
