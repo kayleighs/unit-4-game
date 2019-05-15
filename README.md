@@ -2,7 +2,7 @@
 
 Welcome to Gem Collector!
 
-![Gem Collector](assets\images\gem-game.JPGg)
+![Gem Collector](assets\images\gem-game.JPG)
 
 Simple Game built for javascript
 
