@@ -36,7 +36,6 @@ button:focus, button:active {
 }
 .ks-container::after {
     content:"";
-  
       background: url("../images/triangular.png");  
       opacity:.4;
       top:0;
@@ -47,4 +46,8 @@ button:focus, button:active {
       z-index: -1;
       box-shadow: 4px 4px 20px 0px rgb(61, 61, 61);
 
+}
+
+.ks-border {
+  border-bottom: solid 1px rgb(187, 187, 187)
 }
