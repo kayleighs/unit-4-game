@@ -1,8 +1,8 @@
 # unit-4-game
 
-Welcome to Gem Collector!
-
-![Gem Collector](assets\images\gem-game.JPG)
+##Welcome to Gem Collector!
+[https://kayleighs.github.io/unit-4-game/]
+![Gem Collector](/assets/images/gem-game.JPG)
 
 Simple Game built for javascript
 
