@@ -1,6 +1,6 @@
-# unit-4-game
+# Gem Collector
 
-##Welcome to Gem Collector!
+## Welcome to Gem Collector!
 <br>
 [https://kayleighs.github.io/unit-4-game/]
 
